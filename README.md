@@ -1,4 +1,4 @@
-# Oxford‑5000 Words (Filtered)
+# Oxford‑5000 Words (Filtered Edition)
 
 Original project: [tyypgzl / Oxford‑5000‑words](https://github.com/tyypgzl/Oxford-5000-words) ([GitHub](https://github.com/tyypgzl/Oxford-5000-words))
 
@@ -71,4 +71,37 @@ Filtered data like this :
       }
     }
   },
+```
+<hr>
+
+### Turkish-English Translate
+
+**EN** : The translations were generated automatically using the ``Google Translate API`` and ``Node.js``.
+
+**TR** : Çeviri ``Google Translate API`` ile yapılmıştır ve ``Node.js`` ile otomatik olarak oluşturulmuştur.
+
+```json
+{
+    "id": 436,
+    "value": {
+      "word": {
+        "en": "ball",
+        "tr": "top"
+      },
+      "href": "https://www.oxfordlearnersdictionaries.com/definition/english/ball_1",
+      "type": "noun",
+      "level": "A1",
+      "examples": [
+        "a golf/tennis/bowling/soccer ball ",
+        "to hit/throw/kick/catch a ball",
+        "He kicked the ball into the net.",
+        "Bounce the ball and try and hit it over the net.",
+        "The kids were playing with a bat and ball in the park.",
+        "The ball bounced off down the road."
+      ],
+      "phonetics": {
+        "us": "/bɔːl/"
+      }
+    }
+  }
 ```
